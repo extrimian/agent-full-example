@@ -1,15 +1,15 @@
 {
-  "name": "simple-bot-calculator",
+  "name": "node-typescript-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts",
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache2.0",
   "devDependencies": {
     "nodemon": "^2.0.15",
     "ts-node": "^10.4.0",
