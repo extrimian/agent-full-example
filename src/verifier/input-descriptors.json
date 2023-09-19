@@ -1,0 +1,24 @@
+{
+    "id": "Alumni Credential",
+    "name": "AlumniCredential",
+    "constraints": {
+        "fields": [
+            {
+                "path": [
+                    "$.credentialSubject.givenName"
+                ],
+                "filter": {
+                    "type": "string"
+                }
+            },
+            {
+                "path": [
+                    "$.credentialSubject.familyName"
+                ],
+                "filter": {
+                    "type": "string"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "alumni_credential_output",
+    "schema": "https: //schema.org/EducationalOccupationalCredential",
+    "display": {
+        "title": {
+            "path": [
+                "$.name",
+                "$.vc.name"
+            ],
+            "fallback": "Alumni Credential"
+        },
+        "subtitle": {
+            "path": [
+                "$.class",
+                "$.vc.class"
+            ],
+            "fallback": "Alumni"
+        },
+        "description": {
+            "text": "Credencial que permite validar que es alumno del establecimiento"
+        }
+    },
+    "styles": {
+        "background": {
+            "color": "#ff0000"
+        },
+        "thumbnail": {
+            "uri": "https: //dol.wa.com/logo.png",
+            "alt": "Universidad Nacional"
+        },
+        "hero": {
+            "uri": "https: //dol.wa.com/alumnos.png",
+            "alt": "Alumnos de la universidad"
+        },
+        "text": {
+            "color": "#d4d400"
+        }
+    }
+}

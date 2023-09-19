@@ -1,0 +1,19 @@
+{
+    "name": "Universidad Nacional",
+    "styles": {
+        "thumbnail": {
+            "uri": "https://dol.wa.com/logo.png",
+            "alt": "Universidad Nacional"
+        },
+        "hero": {
+            "uri": "https://dol.wa.com/alumnos.png",
+            "alt": "Alumnos de la universidad"
+        },
+        "background": {
+            "color": "#ff0000"
+        },
+        "text": {
+            "color": "#d4d400"
+        }
+    }
+}
